@@ -15,6 +15,12 @@ namespace obiektowe
         private int iloscDrzwi;
         private double pojemnoscSilnika;
         private double srednieSpalanie;
+        private string numerRejestracyjny;
+        public string NumerRejestracyjny
+        {
+            get { return numerRejestracyjny; }
+            set { numerRejestracyjny = value; }
+        }
 
 
         public string Marka
@@ -68,6 +74,7 @@ namespace obiektowe
             this.srednieSpalanie = srednieSpalanie;
             iloscSamochodow++;
         }
+
 
 
         private double ObliczSpalanie(double dlugoscTrasy)
