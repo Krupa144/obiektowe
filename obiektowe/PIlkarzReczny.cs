@@ -12,7 +12,7 @@ namespace obiektowe
         {
         }
 
-        // Przesłonięta metoda StrzelGola
+        
         public override void StrzelGola()
         {
             base.StrzelGola();
