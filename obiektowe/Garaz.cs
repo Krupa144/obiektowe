@@ -10,10 +10,8 @@ namespace obiektowe
     {
         private string adres;
         private int pojemnosc;
-        private int liczbaSamochodow;
         private Samochod[] samochody;
-
-        private int liczbaSamochow = 0;
+        private int liczbaSamochodow = 0;
         
 
         public string Adres
@@ -33,8 +31,7 @@ namespace obiektowe
         {
             adres = "nienzany";
             pojemnosc = 0;
-            liczbaSamochodow = 0;
-            samochody = null;
+            
         }
 
        
@@ -43,7 +40,6 @@ namespace obiektowe
             {
                 adres = adres_;
                 pojemnosc = pojemnosc_;
-                liczbaSamochodow = 0;
                 samochody = new Samochod[pojemnosc];
             }
 
